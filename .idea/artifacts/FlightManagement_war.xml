@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="FlightManagement:war">
+    <output-path>$PROJECT_DIR$/FlightManagement/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>FlightManagement</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Spring-MVC-Hibernate.war">
+      <element id="artifact" artifact-name="FlightManagement:war exploded" />
+    </root>
+  </artifact>
+</component>
